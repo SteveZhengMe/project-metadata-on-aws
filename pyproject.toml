@@ -1,0 +1,18 @@
+[project]
+name = "project-metadata-on-aws"
+version = "0.0.1"
+description = "Use the 'Project Metadata' create CodeBuild project and CFn stacks in an upper-level environments to archive zero-human activities in the upper-level environment."
+authors = [
+    {name = "Steve"}
+]
+license = {text = "Apache-2.0 license"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "hug[cli] (>=2.6.1,<3.0.0)",
+    "behave"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
